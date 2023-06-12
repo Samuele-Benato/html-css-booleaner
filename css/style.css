@@ -7,6 +7,7 @@
 body {
     font-weight: 600;
     padding-left: 5px;
+    width: 70%;
 }
 
 .banner{
@@ -45,7 +46,7 @@ body {
     padding-top: 20px;
 }
 
-.article{
+.separation{
     margin-top:15px;
 }
 
@@ -55,5 +56,28 @@ body {
 
 .list {
     padding-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    font-weight: 500;
+}
+
+.th_1, .th_2{
+    width: 25%;
+}
+
+.thead{
+    background-color: #4ea0ff;
+    color: white;
+}
+
+.tbody{
+    background-color: rgb(138, 226, 255);
+}
+
+.background_table_center{
+    background-color: white;
 }
 
