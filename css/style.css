@@ -6,7 +6,7 @@
 .banner{
     background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
-    background-size:400px;
+    background-size:350px;
     padding:35px 0 15px 10px;
 
 }
@@ -17,8 +17,9 @@
 
 .title{
     font-size:40px;
-    padding:10px 0 5px 5px;
+    padding:10px 0 0 5px;
     font-weight: bolder;
+    line-height: 90%;
 }
 
 .address{
@@ -32,3 +33,15 @@
     text-decoration: none;
     color: #4ea0ff;
 }
+
+.data , .description{
+    font-size: small;
+}
+
+.tim-images{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+
