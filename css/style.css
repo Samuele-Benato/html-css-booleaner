@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-weight: 600;
+    padding-left: 5px;
+}
+
 .banner{
     background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
     background-size:350px;
     padding:35px 0 15px 10px;
-
 }
 
 .logo{
@@ -17,7 +22,7 @@
 
 .title{
     font-size:40px;
-    padding:10px 0 0 5px;
+    padding-top:10px;
     font-weight: bolder;
     line-height: 90%;
 }
@@ -25,8 +30,6 @@
 .address{
     font-style: normal;
     color:rgb(121, 114, 114);
-    font-weight:700;
-    padding-left: 5px;
 }
 
 .link{
@@ -39,9 +42,18 @@
 }
 
 .tim-images{
-    padding-left: 5px;
     padding-top: 20px;
-    font-weight: 700;
 }
 
+.article{
+    margin-top:15px;
+}
+
+.highlighted_text{
+    background-color:rgba(251, 255, 0, 0.7);
+}
+
+.list {
+    padding-left: 20px;
+}
 
